@@ -105,7 +105,7 @@ void turnpid(int gyroval)
 	SensorValue[port3] = 0;
 	float gkp = 0.55;
 	float gerror;
-	float kd = 0.085;
+	float kd = 0.07;
 	float der = 0;
 	if(gyroval == 90)
 	{
